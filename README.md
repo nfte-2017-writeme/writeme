@@ -1,5 +1,5 @@
 # writeme
 > share and write with anyone
 
-zahin was here
-dexter too
+### github pages
+https://nfte-2017-writeme.github.io/writeme/
