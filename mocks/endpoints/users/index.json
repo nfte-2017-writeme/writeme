@@ -1,0 +1,91 @@
+[{
+    "_id": "0"
+    "username": "E=MC2",
+    "name_first": "Albert",
+    "name_last": "Einstein",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+    "email": "relativity1879@gmail.com",
+    "phone": "",
+    "groups": [],
+    "permissions": [],
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "-2644574400000",
+    "last_active": "-464443200000",
+    "gmt": "-05:00"
+}, {
+    "_id": "1"
+    "username": "FDR",
+    "name_first": "Franklin",
+    "name_last": "Roosevelt",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/FDR_1944_Color_Portrait.tif",
+    "email": "arsenalofdemocracy1882@gmail.com",
+    "phone": "",
+    "groups": [],
+    "permissions": [],
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "-2774433600000",
+    "last_active": "-780148800000",
+    "gmt": "-06:00"
+}, {
+    "_id": "2"
+    "username": "Bapu",
+    "name_first": "Mahatma",
+    "name_last": "Gandhi",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Portrait_Gandhi.jpg",
+    "email": "fatherofthenation1869@gmail.com",
+    "phone": "",
+    "groups": [],
+    "permissions": [],
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "-3163492800000",
+    "last_active": "-691761600000",
+    "gmt": "+05:30"
+}, {
+    "_id": "3"
+    "username": "GBOAT",
+    "name_first": "Muhammad",
+    "name_last": "Ali",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/Muhammad_Ali_NYWTS.jpg",
+    "email": "gboat1942@gmail.com",
+    "phone": "",
+    "groups": [],
+    "permissions": [],
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "-882187200000",
+    "last_active": "1467288000000",
+    "gmt": "-07:00"
+}, {
+    "_id": "4"
+    "username": "i got the internetz going nutz",
+    "name_first": "Tim",
+    "name_last": "Berners-Lee",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg",
+    "email": "t.b.lee.vin.me@gmail.com",
+    "phone": "",
+    "groups": [],
+    "permissions": [],
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "-459691200000",
+    "last_active": "1502995596",
+    "gmt": "+00:00"
+}, {
+    "_id": "5"
+    "username": "riri",
+    "name_first": "Robyn",
+    "name_last": "Fenty",
+    "picture_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Rihanna_concert_in_Washington_DC_%282%29.jpg",
+    "email": "badgalriri@gmail.com",
+    "phone": "",
+    "groups": [],
+    "permissions": [],
+    "is_staff": false,
+    "is_active": false,
+    "date_joined": "573048000000",
+    "last_active": "1502996037",
+    "gmt": "-05:00"
+}]
