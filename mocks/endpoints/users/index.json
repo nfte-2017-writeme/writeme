@@ -1,5 +1,5 @@
 [{
-    "_id": "0"
+    "_id": "0",
     "username": "E=MC2",
     "name_first": "Albert",
     "name_last": "Einstein",
@@ -14,7 +14,7 @@
     "last_active": "-464443200000",
     "gmt": "-05:00"
 }, {
-    "_id": "1"
+    "_id": "1",
     "username": "FDR",
     "name_first": "Franklin",
     "name_last": "Roosevelt",
@@ -29,7 +29,7 @@
     "last_active": "-780148800000",
     "gmt": "-06:00"
 }, {
-    "_id": "2"
+    "_id": "2",
     "username": "Bapu",
     "name_first": "Mahatma",
     "name_last": "Gandhi",
@@ -44,7 +44,7 @@
     "last_active": "-691761600000",
     "gmt": "+05:30"
 }, {
-    "_id": "3"
+    "_id": "3",
     "username": "GBOAT",
     "name_first": "Muhammad",
     "name_last": "Ali",
@@ -59,7 +59,7 @@
     "last_active": "1467288000000",
     "gmt": "-07:00"
 }, {
-    "_id": "4"
+    "_id": "4",
     "username": "i got the internetz going nutz",
     "name_first": "Tim",
     "name_last": "Berners-Lee",
@@ -74,7 +74,7 @@
     "last_active": "1502995596",
     "gmt": "+00:00"
 }, {
-    "_id": "5"
+    "_id": "5",
     "username": "riri",
     "name_first": "Robyn",
     "name_last": "Fenty",
