@@ -81,9 +81,10 @@ header{
    color: white;
 }
 
-    body{
-      font-family:Roboto;
-    background-image:url("https://www.walldevil.com/wallpapers/w04/054021-blurry-city-city-lights-depth-of-field-eiffel-tower-france-night-time-paris.jpg");
+body{
+  font-family:Roboto;
+background-image:url("https://www.walldevil.com/wallpapers/w04/054021-blurry-city-city-lights-depth-of-field-eiffel-tower-france-night-time-paris.jpg");
+background-size:100% 1300%
 }
 
   footer{
