@@ -1,6 +1,6 @@
 
 h1 {
-color: inherit white;
+color: white;
 text-align: center;
   font-family: Roboto;}
 
@@ -55,6 +55,7 @@ text-align: center;
 
 header{
   background: black;
+  color:white;
 }
 
 /* Style the links inside the navigation bar */
