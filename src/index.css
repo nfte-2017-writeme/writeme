@@ -55,7 +55,7 @@ color:white;
 }
 
 header{
-  background: black;
+  background: white;
 }
 
 /* Style the links inside the navigation bar */
@@ -87,10 +87,6 @@ background-image:url("https://www.walldevil.com/wallpapers/w04/054021-blurry-cit
 color:white;
 }
 
-.cans {
-    width: 100%;
-    height: auto;
-}
 
   footer{
   color:white;
