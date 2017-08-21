@@ -1,12 +1,25 @@
 class Asks {
 
     constructor() {
+        // internal properties
+        this.attrs = {
+            questions: [],
+            _response: {}
+        }
         return this
     }
 
-    run() {
-        this.fetch(/* add uri */)
-        return this
+    /**
+     * @method set_questions
+     * @desc sends a "GET" request to target endpoint
+     *
+     * @param {Array} [value]
+     * @returns {Asks} instance
+     */
+    set_questions( value ) {
+        this.attrs.questions = value;
+        console.log( 'set_questions:', this.attrs.questions )
+        return this;
     }
 
     /**
@@ -24,37 +37,55 @@ class Asks {
         request.onreadystatechange = () => {
             if ( request.readyState == 4 || request.status == 200 ) {
                 // send parsed response dataset to successful routine
-                this.on_success( JSON.parse( request.responseText ) )
+                this._on_success( JSON.parse( request.responseText ) )
             } else {
                 // send to error path
-                this.on_error( JSON.parse( request.responseText ) );
+                this._on_error( JSON.parse( request.responseText ) )
             }
         }
         request.send( null )
         return request
     }
 
-
     /**
-     * @method on_success
+     * @private
+     * @method _on_success
      * @desc routine that executes when request is complete and successful
      *
      * @param {*} [data] response dataset
      */
-    on_success( data ) {
-        console.log( `Success: ${data}` )
-        // do more stuff
+    _on_success( data ) {
+        console.log( 'Success:', data )
+        // internally cache last succesful response
+        this.attrs._response = data;
+        // sets property
+        this.set_questions( this._extract_questions_from_dataset( data ) )
+        return data
     }
 
     /**
-     * @method on_error
+     * @private
+     * @method _on_error
      * @desc routine that executes when request fails
      *
      * @param {*} [data] response dataset
      */
-    on_error( data ) {
+    _on_error( data ) {
         console.log( `Error: ${data}` )
         // do more stuff
+        return data
+    }
+
+    /**
+     * @private
+     * @method _extract_questions_from_dataset
+     * @desc get all the questions from the dataset and put them into a simple collection
+     *
+     * @param {*} [data] response dataset
+     * @returns {Array}
+     */
+    _extract_questions_from_dataset( dataset = [] ) {
+        return dataset.map( ( value ) => value.question )
     }
 
 }
@@ -62,5 +93,5 @@ class Asks {
 // instantiate view
 const view = new Asks()
 
-// invoke the view
-view.run()
+// get the data
+view.fetch( 'https://nfte-2017-writeme.github.io/writeme/mocks/endpoints/qna/index.json' )
