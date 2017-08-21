@@ -1,11 +1,7 @@
 
 h1 {
-color:white;
-  font-family: Roboto;
-  text-align:center;
-  font-size:15rem;
-
-}
+text-color:white;
+  font-family: Roboto;}
 
  .idekbruh{color:red;    }
 
@@ -44,9 +40,7 @@ color:white;
 
 .kk{color:red;    }
 
-#white{
-  color:white;
-}
+
 
  .kk{
    list-style-type: none;
