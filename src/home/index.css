@@ -25,10 +25,10 @@ color:white;
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: center;
+    float: left;
     display: block;
     color: #f2f2f2;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
