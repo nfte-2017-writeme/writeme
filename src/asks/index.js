@@ -10,15 +10,16 @@ class Asks {
     }
 
     /**
-     * @method set_questions
-     * @desc sends a "GET" request to target endpoint
+     * @method set
+     * @desc generic setter within the attrs property
      *
-     * @param {Array} [value]
+     * @param {String} [property] namespace of the desired data model
+     * @param {*} [value]
      * @returns {Asks} instance
      */
-    set_questions( value ) {
-        this.attrs.questions = value;
-        console.log( 'set_questions:', this.attrs.questions )
+    set( property = '', value = null ) {
+        this.attrs[ property ] = value;
+        console.log( `set: ${property}`, this.attrs[ property ] )
         return this;
     }
 
@@ -59,7 +60,7 @@ class Asks {
         // internally cache last succesful response
         this.attrs._response = data;
         // sets property
-        this.set_questions( this._extract_questions_from_dataset( data ) )
+        this.set( 'questions', this._extract_questions_from_dataset( data ) )
         return data
     }
 
@@ -81,7 +82,7 @@ class Asks {
      * @method _extract_questions_from_dataset
      * @desc get all the questions from the dataset and put them into a simple collection
      *
-     * @param {*} [data] response dataset
+     * @param {*} [dataset] response dataset
      * @returns {Array}
      */
     _extract_questions_from_dataset( dataset = [] ) {
