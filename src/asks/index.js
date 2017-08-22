@@ -30,7 +30,7 @@ class Asks {
      * @param {String} [uri] a DOMString representing the URL target of the the request
      * @returns {XMLHttpRequest} instance
      */
-    fetch( uri ) {
+    fetch( uri = '' ) {
         // a new request
         // https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
         let request = new XMLHttpRequest()
@@ -59,8 +59,10 @@ class Asks {
         console.log( 'Success:', data )
         // internally cache last succesful response
         this.attrs._response = data;
-        // sets property
+
+        // store questions safely
         this.set( 'questions', this._extract_questions_from_dataset( data ) )
+
         return data
     }
 
@@ -80,7 +82,7 @@ class Asks {
     /**
      * @private
      * @method _extract_questions_from_dataset
-     * @desc get all the questions from the dataset and put them into a simple collection
+     * @desc safely get all the questions from the dataset and put them into a simple collection
      *
      * @param {*} [dataset] response dataset
      * @returns {Array}
