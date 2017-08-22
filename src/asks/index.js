@@ -28,24 +28,27 @@ class Asks {
      * @desc sends a "GET" request to target endpoint
      *
      * @param {String} [uri] a DOMString representing the URL target of the the request
-     * @returns {XMLHttpRequest} instance
+     * @returns {Promise} instance
      */
     fetch( uri = '' ) {
-        // a new request
-        // https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
-        let request = new XMLHttpRequest()
-        request.open( 'GET', uri, false )
-        request.onreadystatechange = () => {
-            if ( request.readyState == 4 || request.status == 200 ) {
-                // send parsed response dataset to successful routine
-                this._on_success( JSON.parse( request.responseText ) )
-            } else {
-                // send to error path
-                this._on_error( JSON.parse( request.responseText ) )
+        return new Promise( ( resolve, reject ) => {
+            // a new request
+            // https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest
+            let request = new XMLHttpRequest()
+            request.open( 'GET', uri, false )
+            request.onload = () => {
+                if ( request.status >= 200 && request.status < 300 ) {
+                    // send parsed response dataset to successful routine
+                    resolve( this._on_success( JSON.parse( request.responseText ) ) )
+                } else {
+                    // send to error path
+                    reject( this._on_error( JSON.parse( request.responseText ) ) )
+                }
             }
-        }
-        request.send( null )
-        return request
+            // send to error path
+            request.onerror = () => reject( this._on_error( JSON.parse( request.responseText ) ) )
+            request.send( null )
+        } )
     }
 
     /**
