@@ -9,7 +9,7 @@ class AsksView {
             question: '' // the current view's question
         }
         // set reference to scoped element
-        this.$el = document.querySelectorAll( selector );
+        this.$el = document.querySelectorAll( selector )
         // construct view's data model
         this.model = new Model()
 

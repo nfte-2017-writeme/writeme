@@ -64,7 +64,7 @@ class AsksModel {
     _on_success( data ) {
         // console.log( 'Success:', data )
         // internally cache last succesful response
-        this.attrs._response = data;
+        this.attrs._response = data
 
         // store questions safely
         this.set( 'questions', this._extract_questions_from_dataset( data ) )
