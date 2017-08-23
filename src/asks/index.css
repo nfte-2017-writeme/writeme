@@ -1,0 +1,7 @@
+/*
+ * Globals
+ */
+
+.question-container {
+    min-height: 100vh; /* vertical stretch across whole view height */
+}

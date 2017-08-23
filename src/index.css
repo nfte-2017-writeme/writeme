@@ -1,4 +1,7 @@
-
+.header {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
 
 /* area for user actions */
 .container-actions {
@@ -9,7 +12,6 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 8vh;
-    line-height: 8vh;
-    background-color: #f5f5f5;
+    min-height: 2rem;
+    line-height: 2rem;
 }
