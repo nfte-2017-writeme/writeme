@@ -1,10 +1,12 @@
 body{
   font-family:Roboto;
-background-image:url("https://www.walldevil.com/wallpapers/w04/054021-blurry-city-city-lights-depth-of-field-eiffel-tower-france-night-time-paris.jpg");
+  background-image:url("https://www.walldevil.com/wallpapers/w04/054021-blurry-city-city-lights-depth-of-field-eiffel-tower-france-night-time-paris.jpg") ;
+  background-size: cover;
 color:white;
 }
 header{
   background: black;
+  color:white;
 }
 h1 {
 color:white;
@@ -12,4 +14,13 @@ color:white;
   text-align:center;
   font-size:15rem;
 
+}
+
+.marbles{
+  color:black;
+}
+#content-container {
+  width: 500px ;
+  margin: 0  auto;
+  background-color: white;
 }
