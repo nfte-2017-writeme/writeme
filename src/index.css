@@ -1,102 +1,15 @@
 
-h1 {
-color: white;
-text-align: center;
-  font-family: Roboto;}
 
- .idekbruh{color:red;    }
-
-  .idekbruh{
-    list-style-type: none;
+/* area for user actions */
+.container-actions {
+    min-height: 72vh;
 }
 
-/* Add a black background color to the top navigation */
-.idekbruh {
-    background-color: #333;
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.idekbruh a {
-    float: center;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 30px 30px 30px 30px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.idekbruh a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-/* Add a color to the active/current link */
-.idekbruh a.active {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.kk{color:red;    }
-
-
-
- .kk{
-   list-style-type: none;
-}
-
-/* Add a black background color to the top navigation */
-.kk {
-   background-color: #333;
-   overflow: hidden;
-}
-
-header{
-  background: black;
-  color:white;
-}
-
-/* Style the links inside the navigation bar */
-.kk a {
-   float: center;
-   display: block;
-   color: #f2f2f2;
-   text-align: center;
-   padding: 30px 30px 30px 30px;
-   text-decoration: none;
-   font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.kk a:hover {
-   background-color: #ddd;
-   color: black;
-}
-
-/* Add a color to the active/current link */
-.kk a.active {
-   background-color: #4CAF50;
-   color: white;
-}
-
-body{
-  font-family:Roboto;
-background-image:url("https://www.walldevil.com/wallpapers/w04/054021-blurry-city-city-lights-depth-of-field-eiffel-tower-france-night-time-paris.jpg") ;
-background-size: cover;
-color:white;
-}
-
-
-  footer{
-  color:white;
-  }
-
-#pancakes{
-  height: 900;
-}
-
-#watermelon{
-  width:300;
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 8vh;
+    line-height: 8vh;
+    background-color: #f5f5f5;
 }
