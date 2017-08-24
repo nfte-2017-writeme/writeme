@@ -18,10 +18,14 @@
 
 #tagline{
   text-align:center;
-  margin-top: 7rem;
-  font-size: 2rem;
+  margin-top: 8rem;
+  font-size: 3rem;
 }
 
 #superscript{
   font-size: 1.999rem;
+}
+
+#size{
+  text-align:center;
 }
