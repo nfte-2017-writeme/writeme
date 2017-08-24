@@ -5,13 +5,13 @@
 
 /* area for user actions */
 .container-actions {
-    min-height: -20vh;
+    min-height: 30vh;
 }
 
 .footer {
     position: absolute;
-    bottom:40;
+    bottom:2;
     width:100%;
-    min-height: 0rem;
+    min-height: 2rem;
     line-height:2rem;
 }
