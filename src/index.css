@@ -5,7 +5,7 @@
 
 /* area for user actions */
 .container-actions {
-    min-height: 72vh;
+    min-height: 20vh;
 }
 
 .footer {
@@ -14,4 +14,18 @@
     width: 100%;
     min-height: 2rem;
     line-height: 2rem;
+}
+
+#tagline{
+  text-align:center;
+  margin-top: 6rem;
+  font-size: 3rem;
+}
+
+#superscript{
+  font-size: 1.999rem;
+}
+
+#size{
+  text-align:center;
 }

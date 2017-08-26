@@ -16,5 +16,9 @@
     line-height: 2rem;
 }
 .question-container {
+<<<<<<< HEAD
     min-height: 50vh; /* vertical stretch across whole view height */
+=======
+    min-height: 100vh; /* vertical stretch across whole view height */
+>>>>>>> e500d92409d6b9c3bba3fb4672db542a05e61800
 }
