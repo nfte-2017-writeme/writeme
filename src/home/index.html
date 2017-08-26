@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang = "en">
+
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Home</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel="stylesheet" href="./index.css">
+    <link href="./index.css" rel="stylesheet">
 </head>
 <body>
     <header class="header bg-dark">
@@ -19,8 +20,17 @@
       </div>
     </header>
 
+<main class="ask container">
+    <div class="question-container d-flex justify-content-center align-items-center">
+      <div class="question-item display-4 text-center">what question?</div>
+    </div>
+</main>
+  <script src="./js/AsksModel.js"></script>
+  <script src="./js/AsksView.js"></script>
+  <script src="./index.js"></script>
+
+
 <main class="container">
-<h1 class="display-3">Work In Progress!! :) </h1>
 </main>
 
 <footer class="footer bg-light text-secondary">
@@ -28,13 +38,7 @@
     <span class="small">© WriteMe 2017</span>
   </div>
 </footer>
-<main class="ask container">
-  <div class="question-container d-flex justify-content-center align-items-center">
-    <div class="question-item display-4 text-center">what question?</div>
-  </div>
-</main>
-<script src="./js/AsksModel.js"></script>
-<script src="./js/AsksView.js"></script>
-<script src="./index.js"></script>
+
+
 </body>
 </html>
