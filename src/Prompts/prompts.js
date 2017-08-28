@@ -51,6 +51,7 @@ class AsksModel {
         } )
     }
 
+<<<<<<< HEAD
     /**
      * @private
      * @method _on_success
@@ -94,3 +95,16 @@ class AsksModel {
         return dataset.map( ( value ) => value.question )
     }
 }
+=======
+/*
+function load() {
+	var mydata = JSON.parse(data);
+	document.write(mydata(num).question);
+}
+var z = Object.keys(data)
+alert(i);
+for i in len(mydata):
+    if i == "question":
+        something+=1
+*/
+>>>>>>> 6dcc0d14e3956ab09519eac426190ca921af1aec
