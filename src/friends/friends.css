@@ -18,3 +18,26 @@
 .question-container {
     min-height: 50vh; /* vertical stretch across whole view height */
 }
+
+#center {
+  text-align: center;
+}
+
+.user {
+  font-size: 20px;
+  padding-left: 40px;
+}
+
+.anonuser{
+  width: 75px;
+  height: 75px;
+}
+
+.response {
+  text-align: center;
+}
+
+.responsetxt {
+ width: 1000px;
+ height: 175px;
+}
