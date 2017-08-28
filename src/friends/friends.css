@@ -21,11 +21,13 @@
 
 #center {
   text-align: center;
+  padding-top: 80px;
 }
 
 .user {
   font-size: 20px;
   padding-left: 40px;
+  padding-top: 80px;
 }
 
 .anonuser{
