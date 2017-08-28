@@ -3,5 +3,5 @@
  */
 
 .question-container {
-    min-height: 100vh; /* vertical stretch across whole view height */
+    min-height: 50vh; /* vertical stretch across whole view height */
 }
