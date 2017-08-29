@@ -22,3 +22,11 @@
 .main{
   min-height: 777rem;
 }
+
+.nav{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  min-height: 2rem;
+  line-height: 2rem;
+}
