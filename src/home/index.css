@@ -34,4 +34,8 @@
 .item {
   display: inline-block;
   vertical-align: middle;
+  width:100%;
+}
+.team{
+  text-align: right;
 }
