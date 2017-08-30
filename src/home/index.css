@@ -31,11 +31,7 @@
   line-height: 2rem;
 }
 
-.kelo{
-  width: 90%;
-  text-align: center;
-}
-
-.malo{
-  text-align:right;
+.item {
+  display: inline-block;
+  vertical-align: middle;
 }
