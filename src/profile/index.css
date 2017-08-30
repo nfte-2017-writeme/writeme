@@ -1,0 +1,35 @@
+.header {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+/* area for user actions */
+.container-actions {
+    min-height: 30vh;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 2rem;
+    line-height: 2rem;
+}
+
+#center {
+  text-align: center;
+}
+
+
+.image-cropper {
+    display: block;
+  margin: 0 auto;
+  height: auto;
+   width: 150%;
+  margin: 0 0 0 -20%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+-ms-border-radius: 50%;
+-o-border-radius: 50%;
+border-radius: 50%;
+}

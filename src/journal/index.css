@@ -15,18 +15,38 @@
     min-height: 2rem;
     line-height: 2rem;
 }
+.responsetext
+{
+  width: 1000px;
+  height: 175px;
+}
 .question-container {
     min-height: 50vh; /* vertical stretch across whole view height */
 }
 
-.main{
-  min-height: 777rem;
+#center {
+  text-align: center;
+  padding-top: 80px;
 }
 
-.nav{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  min-height: 2rem;
-  line-height: 2rem;
+.user {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 80px;
+}
+
+.anonuser{
+  width: 75px;
+  height: 75px;
+}
+
+#response {
+  text-align: center;
+}
+
+#copyr {
+  padding-left: 200px
+}
+div {
+  color: gray;
 }
