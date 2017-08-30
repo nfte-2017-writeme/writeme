@@ -10,10 +10,10 @@
 
 .footer {
     position: absolute;
-    bottom:2;
-    width:100%;
+    bottom: 0;
+    width: 100%;
     min-height: 2rem;
-    line-height:2rem;
+    line-height: 2rem;
 }
 
 #center {
