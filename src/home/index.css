@@ -30,3 +30,8 @@
   min-height: 2rem;
   line-height: 2rem;
 }
+
+.mist{
+  width: 90%;
+  align-self:center; 
+}
