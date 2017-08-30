@@ -5,7 +5,7 @@
 // instantiation
 const view = new AsksView( '.question-item' )
 
-view.fetch_then_render( 'https://github.com/nfte-2017-writeme/writeme/blob/master/src/Prompts/prompts.json' )
+view.fetch_then_render( 'https://nfte-2017-writeme.github.io/writeme/mocks/endpoints/qna/index.json' )
 /* =====  End of run  ====== */
 
 }()
