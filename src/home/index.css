@@ -31,7 +31,10 @@
   line-height: 2rem;
 }
 
-.nerf{
-  position: relative;
-left: 30px;
+.but{
+  text-align:center;
+}
+
+#mixer{
+  width:100%;
 }
