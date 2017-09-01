@@ -18,3 +18,8 @@
 .mids{
   text-align: center;
 }
+.row{
+     position: relative;
+     left: 250px;
+  }
+}
