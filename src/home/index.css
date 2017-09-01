@@ -40,6 +40,10 @@
 }
 .row{
      position: relative;
-     left: 250px;
+     text-align: center;
   }
+}
+
+#ban{
+  padding-left: 10rem;
 }
