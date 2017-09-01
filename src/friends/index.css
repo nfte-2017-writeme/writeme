@@ -9,7 +9,6 @@
 }
 
 .footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   min-height: 2rem;
@@ -51,8 +50,7 @@ div {
   color: gray;
 }
 
-
-.img-fluid {
-  width: 150px;
-  height: 150px;
+.hello {
+  height: 200px;
+  width: 200px
 }
