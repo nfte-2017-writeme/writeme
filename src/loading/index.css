@@ -1,0 +1,40 @@
+html {
+    min-height: 100%;
+}
+
+.header {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.bg-loading {
+    background-color: #1C75BC;
+}
+
+.loading-arrows {
+    position: relative;
+}
+
+.loading-arrow {
+    position: absolute;
+}
+
+.loading-arrow-left {
+    top: 10vh;
+    left: 33vw;
+    z-index: 1;
+}
+
+.loading-arrow-right {
+    top: 5vh;
+    right: 33vw;
+    z-index: 2;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 2rem;
+    line-height: 2rem;
+}

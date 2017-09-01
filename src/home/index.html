@@ -34,17 +34,20 @@
     <script src="./index.js"></script>
   </main>
 
+
   <div class="container" id="mouse">
-    <input id="mixer"></input>
+    <div class="form-group">
+    <input class="form-control" id="mixer"></input>
+    </div>
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col-4">
+    <div class="row justify-content-between">
+      <div class="col-4 text-center">
         <button type="button" class="btn btn-danger" value="Refresh Page" onClick="window.location.reload()" class="but">New Prompt</button>
       </div>
-      <div class="col-4">
-        <a href="../answer" class="but" id="ban">
+      <div class="col-4 text-center">
+        <a href="../swapped" class="but" id="ban">
 <button type="button" class="btn btn-success">Answer!</button>
 </a>
       </div>
