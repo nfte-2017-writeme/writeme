@@ -38,3 +38,8 @@
 #mixer{
   width:90%;
 }
+.row{
+     position: relative;
+     left: 250px;
+  }
+}
