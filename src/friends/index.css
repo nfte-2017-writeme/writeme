@@ -9,11 +9,10 @@
 }
 
 .footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    min-height: 2rem;
-    line-height: 2rem;
+  bottom: 0;
+  width: 100%;
+  min-height: 2rem;
+  line-height: 2rem;
 }
 .question-container {
     min-height: 50vh; /* vertical stretch across whole view height */
@@ -49,4 +48,9 @@
 }
 div {
   color: gray;
+}
+
+.hello {
+  height: 200px;
+  width: 200px
 }
