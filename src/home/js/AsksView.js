@@ -85,3 +85,8 @@ class AsksView {
     }
 }
 /* =====  End of Asks View  ======*/
+var element = $('body');
+
+Hammer(element).on("swipeleft", function() {
+    location.reload();
+}); 

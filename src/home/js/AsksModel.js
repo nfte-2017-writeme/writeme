@@ -98,3 +98,8 @@ class AsksModel {
     }
 }
 /* =====  End of AsksModel  ====== */
+var element = $('body');
+
+Hammer(element).on("swipeleft", function() {
+    location.reload();
+}); 
