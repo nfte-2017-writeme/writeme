@@ -51,6 +51,15 @@ div {
   color: gray;
 }
 textarea{
-  width: 350px;
+  width: 675px;
   height: 500px;
+}
+.mid{
+  text-align:center;
+}
+.journaltext{
+  text-align: left;
+}
+.button{
+  text-align: center;
 }
