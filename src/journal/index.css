@@ -50,3 +50,7 @@
 div {
   color: gray;
 }
+textarea{
+  width: 350px;
+  height: 500px;
+}
