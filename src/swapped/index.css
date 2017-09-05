@@ -21,3 +21,8 @@
 .media{
   text-align: center;
 }
+
+.img {
+  width: 25vw;
+  height: auto;
+}
