@@ -9,6 +9,7 @@
 }
 
 .footer {
+  position: absolute;
   bottom: 0;
   width: 100%;
   min-height: 2rem;
@@ -39,16 +40,10 @@
   height: 75px;
 }
 
-#response {
-  text-align: center;
-}
-
 #copyr {
   padding-left: 200px
 }
-div {
-  color: gray;
-}
+
 textarea{
   width: 675px;
   height: 500px;
