@@ -14,8 +14,11 @@
     min-height: 2rem;
     line-height: 2rem;
 }
-.mids{
-  text-align: center;
+
+.question {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.1;
 }
 
 .media{
