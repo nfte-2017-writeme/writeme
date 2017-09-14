@@ -44,7 +44,7 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	window.swing = __webpack_require__(1);
+	window.Swing = __webpack_require__(1);
 
 
 /***/ }),
@@ -502,11 +502,11 @@
 	  var config = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
 
 	  var defaultConfig = {
-	    allowedDirections: [_Direction2.default.RIGHT, _Direction2.default.LEFT, _Direction2.default.UP],
+	    allowedDirections: [_Direction2.default.RIGHT, _Direction2.default.LEFT],
 	    isThrowOut: Card.isThrowOut,
-	    maxRotation: 20,
-	    maxThrowOutDistance: 500,
-	    minThrowOutDistance: 400,
+	    maxRotation: 0,
+	    maxThrowOutDistance: 300,
+	    minThrowOutDistance: 200,
 	    rotation: Card.rotation,
 	    throwOutConfidence: Card.throwOutConfidence,
 	    throwOutDistance: Card.throwOutDistance,
